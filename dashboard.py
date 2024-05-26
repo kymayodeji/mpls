@@ -25,6 +25,7 @@ from dash import html
 from dash import dcc
 
 # 1: Load Data
+# Active Rental Licenses in the City of Minneapolis
 business_licenses_url = "https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Active_Rental_Licenses/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson"
 
 #Data is from: 
